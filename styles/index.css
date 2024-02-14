@@ -90,14 +90,24 @@ h1, h2, h3, h4, h5, h6 {
     height: 40px !important;
 }
 
-.cursor-icon {
-    color: #FA7435;
-}
-
 .svg-left-arrow {
     color: rgb(202, 200, 200);
     height: 40px !important;
 }
+
+.lead-dot {
+    height: 100px !important;
+}
+
+.side-dot {
+    height: 50px !important;
+}
+
+.cursor-icon {
+    color: #FA7435;
+}
+
+
 
 .position-relative {
     position: relative;
@@ -115,6 +125,11 @@ h1, h2, h3, h4, h5, h6 {
 .card-exclusive {
     border: 1px solid #c0b7b79c !important;
     background-color: white !important;
+}
+
+.card-blog {
+    background-color: transparent !important;
+    border: none !important;
 }
 
 
@@ -183,7 +198,7 @@ footer a {
 }
 
 #blog-box {
-    height: 805px;
+    height: 705px;
     font-family: Volkhov;
     text-align: left;
 }
@@ -201,4 +216,9 @@ footer a {
 
 .card-worth {
     background-image: url('../img/Vector4856.png');
+}
+
+.image-left {
+    position: absolute;
+    left: 70%;
 }
